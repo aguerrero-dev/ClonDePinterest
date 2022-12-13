@@ -1,0 +1,26 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;   
+}
+
+.navbar-pinterest {
+    display: grid; 
+   
+}
+
+#pinterest-icon {
+    gap: 50px 200px;
+}
+
+.card-image:hover {
+    gap: 50px 30px;
+}
+
+#subMenu {
+    display: flex;
+
+}
+
+.etiqueta {
+    padding: 0.2em;
+}
