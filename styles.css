@@ -79,15 +79,14 @@ body{
 .myBoard {
     columns: 7 250px ;
     column-gap: 1em;
-
 }
 
-div .card-image:hover {
-    transition: box-shadow 0.3s ease;
-    box-shadow: 0 0.1rem 0.4rem rgba(33, 25, 34,50%);
+div .card-image:hover{
+    transition: initial;
     cursor: pointer;
-    box-shadow: 2em;
+    box-shadow: 1em;
     border-radius: 10px;
+    opacity: 1em;
 }
 
 div .card-image {
@@ -95,5 +94,14 @@ div .card-image {
     object-fit: fill;
 }
 
+.boton{
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+     nav{
+        width: 480px;
+    }  
+}
 
 
